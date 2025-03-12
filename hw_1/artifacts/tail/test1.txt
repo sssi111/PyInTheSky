@@ -1,0 +1,11 @@
+Hello
+World
+It's
+Firts
+Homework
+On
+Advanced
+Python
+Cource
+Привет
+Мир!

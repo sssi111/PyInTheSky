@@ -1,0 +1,38 @@
+Системные файлы и временные файлы:
+*.DS_Store
+*.swp
+*.swo
+
+Файлы окружения:
+.env
+.venv/
+venv/
+ENV/
+env/
+
+Python cache:
+pycache/
+*.py[cod]
+*$py.class
+
+Данные тестов и логов:
+test-results/
+coverage/
+*.log
+
+Командные файлы редакторов и интеграций:
+.idea/
+.vscode/
+
+Артефакты сборки:
+build/
+dist/
+*.egg-info/
+.eggs/
+
+Пакеты и блокировки:
+pip-wheel-metadata/
+pip-log.txt
+Pipfile
+Pipfile.lock
+poetry.lock

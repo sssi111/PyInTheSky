@@ -1,0 +1,15 @@
+ ~/repos/PyInTheSky  task-1 ?3  cd wc                                                   ✔  10:35:43 PM 
+ ~/r/PyInTheSky/wc  task-1 ?3  echo -en "hello world\nthis is a test" > file1.txt       ✔  10:35:46 PM 
+echo -en "line1\nline2\nline3" > file2.txt
+ ~/r/PyInTheSky/wc  task-1 ?3  chmod +x pywc.py                                         ✔  10:35:57 PM 
+ ~/r/PyInTheSky/wc  task-1 ?3  ./pywc.py file1.txt                                      ✔  10:36:12 PM 
+1 6 26 file1.txt
+ ~/r/PyInTheSky/wc  task-1 ?3  ./pywc.py file1.txt file2.txt                            ✔  10:36:34 PM 
+1 6 26 file1.txt
+2 3 17 file2.txt
+3 9 43 total
+ ~/r/PyInTheSky/wc  task-1 ?3  cat file1.txt | ./pywc.py                                ✔  10:36:45 PM 
+1 6 26
+ ~/r/PyInTheSky/wc  task-1 ?3  ./pywc.py missing.txt                                    ✔  10:37:10 PM 
+wc: missing.txt: No such file or directory
+ ~/r/PyInTheSky/wc  task-1 ?3      
