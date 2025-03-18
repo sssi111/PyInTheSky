@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "library usage"
+version = "0.1.0"
+description = "pylatex_sssi111 usage example"
+authors = ["sssi111 <truesssi111@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pylatex-sssi111 = "^0.1.3"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.5"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
