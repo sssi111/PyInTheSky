@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  library_usage:
+    build:
+      context: .
+      dockerfile: Dockerfile 
+    volumes:
+      - ./library_usage:/app/library_usage
