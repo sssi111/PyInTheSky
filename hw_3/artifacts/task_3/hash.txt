@@ -1,0 +1,2 @@
+Hash of AB: 347
+Hash of CD: 287

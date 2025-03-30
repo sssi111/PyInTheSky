@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "my-matrix-over-numpy"
+version = "0.1.0"
+description = ""
+authors = ["Andrew Panov <gooday358@gmail.com>"]
+packages = [
+{ include = "src", from = "." },
+]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+numpy = "^2.2"
+pytest = "^8.2.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
