@@ -1,0 +1,17 @@
+Executor,Workers,Time
+ThreadPoolExecutor,1,1.3516
+ThreadPoolExecutor,2,1.3546
+ThreadPoolExecutor,3,1.3658
+ThreadPoolExecutor,4,1.3620
+ThreadPoolExecutor,5,1.3669
+ThreadPoolExecutor,6,1.3663
+ThreadPoolExecutor,7,1.3640
+ThreadPoolExecutor,8,1.3768
+ProcessPoolExecutor,1,1.3306
+ProcessPoolExecutor,2,0.6782
+ProcessPoolExecutor,3,0.7043
+ProcessPoolExecutor,4,0.8032
+ProcessPoolExecutor,5,0.8362
+ProcessPoolExecutor,6,0.8082
+ProcessPoolExecutor,7,0.8314
+ProcessPoolExecutor,8,0.8302
