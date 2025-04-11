@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "async-image-downloader"
+version = "0.1.0"
+description = "Asynchronous image downloader using aiohttp"
+authors = ["Your Name"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+aiohttp = "^3.11.16"
+aiofiles = "^24.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

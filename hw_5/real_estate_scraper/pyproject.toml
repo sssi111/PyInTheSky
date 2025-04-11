@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "real-estate-scraper"
+version = "0.1.0"
+description = "Asynchronous real estate scraper for cian.ru, realty.yandex.ru, and avito.ru"
+authors = ["Andrew Panov <gooday358@gmail.com>"]
+packages = [{include = "real_estate_scraper"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+aiohttp = "^3.9.1"
+beautifulsoup4 = "^4.12.2"
+lxml = "^4.9.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 100
+target-version = ["py312"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+select = ["E", "F", "B", "I"]
